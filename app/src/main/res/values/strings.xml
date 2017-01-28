@@ -2,9 +2,9 @@
     <string name="app_name">About Ollivander\'s Wand Shop</string>
     <string name="object_title">Ollivander\'s Wand Shop</string>
     <string name="object_subtitle">Souvenir Store</string>
-    <string name="call_link">Call</string>
-    <string name="save_link">Save</string>
-    <string name="website_link">Website</string>
+    <string name="call_action">Call</string>
+    <string name="save_action">Save</string>
+    <string name="website_action">Website</string>
     <string name="object_location">Hogsmeade\'s main St, Orlando, FL 32819</string>
     <string name="web_url">universalorlando.com</string>
     <string name="working_hours">Working hours: 8-22</string>

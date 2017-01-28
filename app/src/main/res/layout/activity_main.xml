@@ -45,46 +45,19 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_call_black_24dp"
-            android:drawablePadding="8dp"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="16dp"
-            android:text="@string/call_link"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="@color/colorPrimary" />
+            android:text="@string/call_action" />
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_star_black_24dp"
-            android:drawablePadding="8dp"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="16dp"
-            android:text="@string/save_link"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="@color/colorPrimary"/>
+            android:text="@string/save_action" />
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_public_black_24dp"
-            android:drawablePadding="8dp"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="16dp"
-            android:text="@string/website_link"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="@color/colorPrimary"/>
+            android:text="@string/website_action" />
 
     </LinearLayout>
 
