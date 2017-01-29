@@ -47,17 +47,20 @@
         <TextView
             style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_call_black_24dp"
-            android:text="@string/call_action" />
+            android:text="@string/call_action"
+            android:onClick="dialPhoneNumber"/>
 
         <TextView
             style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_star_black_24dp"
-            android:text="@string/save_action" />
+            android:text="@string/save_action"
+            android:onClick="markAsSaved"/>
 
         <TextView
             style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_public_black_24dp"
-            android:text="@string/website_action" />
+            android:text="@string/website_action"
+            android:onClick="visitWebsite"/>
 
     </LinearLayout>
 
@@ -73,23 +76,22 @@
 
         <TextView
             android:drawableLeft="@drawable/ic_place_black_24dp"
-            style="@style/InformationBlockStyle"
+            style="@style/InformationBlock"
             android:text="@string/object_location" />
 
         <TextView
             android:drawableLeft="@drawable/ic_public_black_24dp"
-            style="@style/InformationBlockStyle"
-            android:text="@string/web_url"
-            android:id="@+id/textView" />
+            style="@style/InformationBlock"
+            android:text="@string/web_url" />
 
         <TextView
             android:drawableLeft="@drawable/ic_access_time_black_24dp"
-            style="@style/InformationBlockStyle"
+            style="@style/InformationBlock"
             android:text="@string/working_hours"/>
 
         <TextView
             android:drawableLeft="@drawable/ic_call_black_24dp"
-            style="@style/InformationBlockStyle"
+            style="@style/InformationBlock"
             android:text="@string/phone_number"/>
 
     </LinearLayout>
