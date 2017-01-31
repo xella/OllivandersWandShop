@@ -10,8 +10,7 @@
     <ImageView
         android:id="@+id/object_image"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="200dp"
         android:scaleType="centerCrop"
         android:src="@drawable/shop" />
 
@@ -69,31 +68,97 @@
         android:layout_height="1dp"
         android:background="#E7E7E7" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <ScrollView
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_width="match_parent">
 
-        <TextView
-            android:drawableLeft="@drawable/ic_place_black_24dp"
-            style="@style/InformationBlock"
-            android:text="@string/object_location" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
 
-        <TextView
-            android:drawableLeft="@drawable/ic_public_black_24dp"
-            style="@style/InformationBlock"
-            android:text="@string/web_url" />
+            <TextView
+                android:drawableLeft="@drawable/ic_place_black_24dp"
+                style="@style/InformationBlock"
+                android:text="@string/object_location" />
 
-        <TextView
-            android:drawableLeft="@drawable/ic_access_time_black_24dp"
-            style="@style/InformationBlock"
-            android:text="@string/working_hours"/>
+            <TextView
+                android:drawableLeft="@drawable/ic_public_black_24dp"
+                style="@style/InformationBlock"
+                android:text="@string/web_url" />
 
-        <TextView
-            android:drawableLeft="@drawable/ic_call_black_24dp"
-            style="@style/InformationBlock"
-            android:text="@string/phone_number"/>
+            <TextView
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                style="@style/InformationBlock"
+                android:text="@string/phone_number" />
 
-    </LinearLayout>
+            <TextView
+                android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                style="@style/InformationBlock"
+                android:text="@string/working_hours" />
+
+            <TextView
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                style="@style/InformationBlock"
+                android:text="@string/ownership" />
+
+            <LinearLayout
+                android:layout_height="150dp"
+                android:layout_width="match_parent">
+
+                <HorizontalScrollView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp">
+
+                        <ImageView
+                            style="@style/AdditionalImage"
+                            android:src="@drawable/shop1"/>
+
+                        <ImageView
+                            style="@style/AdditionalImage"
+                            android:src="@drawable/shop2"/>
+
+                        <ImageView
+                            style="@style/AdditionalImage"
+                            android:src="@drawable/shop3"/>
+
+                        <ImageView
+                            style="@style/AdditionalImage"
+                            android:src="@drawable/shop4"/>
+
+                        <ImageView
+                            style="@style/AdditionalImage"
+                            android:src="@drawable/shop1"/>
+
+                        <ImageView
+                            style="@style/AdditionalImage"
+                            android:src="@drawable/shop2"/>
+
+                        <ImageView
+                            style="@style/AdditionalImage"
+                            android:src="@drawable/shop3"/>
+
+                        <ImageView
+                            style="@style/AdditionalImage"
+                            android:src="@drawable/shop4"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

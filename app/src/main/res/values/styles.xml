@@ -23,7 +23,17 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:drawablePadding">32dp</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
         <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AdditionalImage">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_margin">4dp</item>
     </style>
 </resources>
