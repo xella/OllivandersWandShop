@@ -11,7 +11,7 @@
     <!-- Style for main image on top of the page. -->
     <style name="MainImageView">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_height">@dimen/main_image_height</item>
         <item name="android:scaleType">centerCrop</item>
     </style>
 
@@ -21,7 +21,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:padding">24dp</item>
+        <item name="android:padding">@dimen/place_title_layout_padding</item>
     </style>
 
     <!-- Style for title of the place. -->
@@ -29,25 +29,25 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
     </style>
 
     <!-- Style for subtitle of the place. -->
     <style name="PlaceSubtitleTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginTop">@dimen/subtitle_margin_top</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">@dimen/subtitle_text_size</item>
     </style>
 
     <!-- Style for Call/Save/Website TextViews. -->
     <style name="ActionTextView">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">@dimen/action_text_view_width</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:drawablePadding">8dp</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:drawablePadding">@dimen/action_text_view_drawable_padding</item>
+        <item name="android:padding">@dimen/action_text_view_padding</item>
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/colorPrimary</item>
@@ -55,26 +55,26 @@
 
     <style name="DividerView">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-        <item name="android:background">#E7E7E7</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/dividerColor</item>
     </style>
 
-    <style name="InformationBlockLayout">
+    <style name="InformationTextViewLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">@dimen/information_text_view_layout_padding</item>
     </style>
 
     <!-- Style for TextViews with information like Phone number, Ownership and etc. -->
     <style name="InformationTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:drawablePadding">32dp</item>
-        <item name="android:paddingTop">16dp</item>
-        <item name="android:paddingBottom">16dp</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:paddingRight">24dp</item>
+        <item name="android:drawablePadding">@dimen/information_text_view_drawable_padding</item>
+        <item name="android:paddingTop">@dimen/information_text_view_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/information_text_view_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/information_text_view_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/information_text_view_horizontal_padding</item>
         <item name="android:gravity">center_vertical</item>
     </style>
 
@@ -82,17 +82,17 @@
     <style name="AdditionalImagesLayout">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">4dp</item>
-        <item name="android:layout_marginRight">4dp</item>
-        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">@dimen/additional_images_layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/additional_images_layout_margin</item>
+        <item name="android:layout_marginBottom">@dimen/additional_images_layout_margin</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
     <!-- Style for additional images in Horizontal ScrollView. -->
     <style name="AdditionalImage">
-        <item name="android:layout_width">200dp</item>
-        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">@dimen/additional_image_width</item>
+        <item name="android:layout_height">@dimen/additional_image_height</item>
         <item name="android:scaleType">centerCrop</item>
-        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_margin">@dimen/additional_image_margin</item>
     </style>
 </resources>
