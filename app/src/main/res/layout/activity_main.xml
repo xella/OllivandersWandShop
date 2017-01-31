@@ -9,32 +9,19 @@
 
     <ImageView
         android:id="@+id/object_image"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
+        style="@style/MainImageView"
         android:src="@drawable/shop" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:orientation="vertical"
-        android:padding="24dp">
+        style="@style/PlaceTitleLayout">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/object_title"
-            android:textColor="@android:color/white"
-            android:textSize="20sp" />
+            style="@style/PlaceTitleTextView"
+            android:text="@string/object_title"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/object_subtitle"
-            android:textColor="@android:color/white"
-            android:textSize="14sp"/>
+            style="@style/PlaceSubtitleTextView"
+            android:text="@string/object_subtitle"/>
 
     </LinearLayout>
 
@@ -46,119 +33,103 @@
         <TextView
             style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_call_black_24dp"
-            android:text="@string/call_action"
-            android:onClick="dialPhoneNumber"/>
+            android:onClick="dialPhoneNumber"
+            android:text="@string/call_action"/>
 
         <TextView
             style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_star_black_24dp"
-            android:text="@string/save_action"
-            android:onClick="markAsSaved"/>
+            android:onClick="markAsSaved"
+            android:text="@string/save_action"/>
 
         <TextView
             style="@style/ActionTextView"
             android:drawableTop="@drawable/ic_public_black_24dp"
-            android:text="@string/website_action"
-            android:onClick="visitWebsite"/>
+            android:onClick="visitWebsite"
+            android:text="@string/website_action"/>
 
     </LinearLayout>
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#E7E7E7" />
+        style="@style/DividerView" />
 
     <ScrollView
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingTop="16dp">
+            style="@style/InformationBlockLayout">
 
             <TextView
+                style="@style/InformationTextView"
                 android:drawableLeft="@drawable/ic_place_black_24dp"
-                style="@style/InformationBlock"
-                android:text="@string/object_location"
-                android:onClick="openMaps"/>
+                android:onClick="openMaps"
+                android:text="@string/object_location"/>
 
             <TextView
+                style="@style/InformationTextView"
                 android:drawableLeft="@drawable/ic_public_black_24dp"
-                style="@style/InformationBlock"
                 android:onClick="visitWebsite"
                 android:text="@string/web_url" />
 
             <TextView
+                style="@style/InformationTextView"
                 android:drawableLeft="@drawable/ic_call_black_24dp"
-                style="@style/InformationBlock"
                 android:onClick="dialPhoneNumber"
                 android:text="@string/phone_number" />
 
             <TextView
+                style="@style/InformationTextView"
                 android:drawableLeft="@drawable/ic_access_time_black_24dp"
-                style="@style/InformationBlock"
                 android:text="@string/working_hours" />
 
             <TextView
+                style="@style/InformationTextView"
                 android:drawableLeft="@drawable/ic_verified_user_black_24dp"
-                style="@style/InformationBlock"
                 android:text="@string/ownership" />
 
-            <LinearLayout
-                android:layout_height="150dp"
-                android:layout_width="match_parent">
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="150dp">
 
-                <HorizontalScrollView
-                    android:layout_height="fill_parent"
-                    android:layout_width="fill_parent">
+                <LinearLayout
+                    style="@style/AdditionalImagesLayout">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginLeft="4dp"
-                        android:layout_marginRight="4dp"
-                        android:layout_marginBottom="4dp">
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop1"/>
 
-                        <ImageView
-                            style="@style/AdditionalImage"
-                            android:src="@drawable/shop1"/>
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop2"/>
 
-                        <ImageView
-                            style="@style/AdditionalImage"
-                            android:src="@drawable/shop2"/>
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop3"/>
 
-                        <ImageView
-                            style="@style/AdditionalImage"
-                            android:src="@drawable/shop3"/>
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop4"/>
 
-                        <ImageView
-                            style="@style/AdditionalImage"
-                            android:src="@drawable/shop4"/>
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop1"/>
 
-                        <ImageView
-                            style="@style/AdditionalImage"
-                            android:src="@drawable/shop1"/>
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop2"/>
 
-                        <ImageView
-                            style="@style/AdditionalImage"
-                            android:src="@drawable/shop2"/>
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop3"/>
 
-                        <ImageView
-                            style="@style/AdditionalImage"
-                            android:src="@drawable/shop3"/>
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop4"/>
 
-                        <ImageView
-                            style="@style/AdditionalImage"
-                            android:src="@drawable/shop4"/>
+                </LinearLayout>
 
-                    </LinearLayout>
-
-                </HorizontalScrollView>
-
-            </LinearLayout>
+            </HorizontalScrollView>
 
         </LinearLayout>
 

@@ -8,7 +8,40 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Style for Call/Save/Website TextViews -->
+    <!-- Style for main image on top of the page. -->
+    <style name="MainImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for layout with title and subtitle of the place. -->
+    <style name="PlaceTitleLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">24dp</item>
+    </style>
+
+    <!-- Style for title of the place. -->
+    <style name="PlaceTitleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Style for subtitle of the place. -->
+    <style name="PlaceSubtitleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Style for Call/Save/Website TextViews. -->
     <style name="ActionTextView">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
@@ -20,8 +53,21 @@
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
-    <!-- Styles for blocks with information like Phone number, Ownership and etc. -->
-    <style name="InformationBlock">
+    <style name="DividerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#E7E7E7</item>
+    </style>
+
+    <style name="InformationBlockLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Style for TextViews with information like Phone number, Ownership and etc. -->
+    <style name="InformationTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:drawablePadding">32dp</item>
@@ -32,7 +78,17 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <!-- Styles for additional images in Horizontal ScrollView-->
+    <!-- Style for layout with additional images. -->
+    <style name="AdditionalImagesLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Style for additional images in Horizontal ScrollView. -->
     <style name="AdditionalImage">
         <item name="android:layout_width">200dp</item>
         <item name="android:layout_height">150dp</item>

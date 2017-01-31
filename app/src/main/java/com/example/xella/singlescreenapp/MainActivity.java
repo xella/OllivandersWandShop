@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method opens a maps app with place's address
+     * This method opens a maps app with place's address.
      *
      */
     public void openMaps(View view) {
