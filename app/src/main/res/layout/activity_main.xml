@@ -81,16 +81,19 @@
             <TextView
                 android:drawableLeft="@drawable/ic_place_black_24dp"
                 style="@style/InformationBlock"
-                android:text="@string/object_location" />
+                android:text="@string/object_location"
+                android:onClick="openMaps"/>
 
             <TextView
                 android:drawableLeft="@drawable/ic_public_black_24dp"
                 style="@style/InformationBlock"
+                android:onClick="visitWebsite"
                 android:text="@string/web_url" />
 
             <TextView
                 android:drawableLeft="@drawable/ic_call_black_24dp"
                 style="@style/InformationBlock"
+                android:onClick="dialPhoneNumber"
                 android:text="@string/phone_number" />
 
             <TextView
