@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:orientation="vertical"
+            style="@style/PlaceTitleLayout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/object_subtitle"
+                style="@style/PlaceSubtitleTextView"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ActionTextView"
+                android:drawableTop="@drawable/ic_call_black_24dp"
+                android:onClick="dialPhoneNumber"
+                android:text="@string/call_action"/>
+
+            <TextView
+                style="@style/ActionTextView"
+                android:drawableTop="@drawable/ic_star_black_24dp"
+                android:onClick="markAsSaved"
+                android:text="@string/save_action"/>
+
+            <TextView
+                style="@style/ActionTextView"
+                android:drawableTop="@drawable/ic_public_black_24dp"
+                android:onClick="visitWebsite"
+                android:text="@string/website_action"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/DividerView" />
+
+        <LinearLayout style="@style/InformationTextViewLayout">
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_place_black_24dp"
+                android:onClick="openMaps"
+                android:text="@string/object_location" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_public_black_24dp"
+                android:onClick="visitWebsite"
+                android:text="@string/web_url" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                android:onClick="dialPhoneNumber"
+                android:text="@string/phone_number" />
+
+            <TextView
+                android:id="@+id/opening_hours"
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                android:text="@string/opening_hours" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <TextView
+                style="@style/InformationTextView"
+                android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                android:text="@string/ownership" />
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="150dp">
+
+                <LinearLayout style="@style/AdditionalImagesLayout">
+
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop1" />
+
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop2" />
+
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop3" />
+
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop4" />
+
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop1" />
+
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop2" />
+
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop3" />
+
+                    <ImageView
+                        style="@style/AdditionalImage"
+                        android:src="@drawable/shop4" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

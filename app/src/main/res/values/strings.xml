@@ -7,7 +7,7 @@
     <string name="website_action">Website</string>
     <string name="object_location">Hogsmeade\'s main St, Orlando, FL 32819</string>
     <string name="web_url">universalorlando.com</string>
-    <string name="working_hours">Working hours: 8-22</string>
+    <string name="opening_hours">Opening hours: 8-22</string>
     <string name="phone_number">+1-407-363-8000</string>
     <string name="ownership">Claim this business</string>
 </resources>

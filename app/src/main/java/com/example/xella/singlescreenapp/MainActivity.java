@@ -1,9 +1,11 @@
 package com.example.xella.singlescreenapp;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.icu.util.Calendar;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -16,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         openHoursCheck();
+
+//        CollapsingToolbarLayout collapsingToolbarLayout =
+//                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+//        collapsingToolbarLayout.setTitle(getString(R.string.object_title));
+//        collapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.PlaceTitleTextView);
     }
 
     /**

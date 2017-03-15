@@ -15,6 +15,12 @@
         <item name="android:scaleType">centerCrop</item>
     </style>
 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
     <!-- Style for layout with title and subtitle of the place. -->
     <style name="PlaceTitleLayout">
         <item name="android:layout_width">match_parent</item>
@@ -26,8 +32,6 @@
 
     <!-- Style for title of the place. -->
     <style name="PlaceTitleTextView">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/title_text_size</item>
     </style>
@@ -36,7 +40,7 @@
     <style name="PlaceSubtitleTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/subtitle_margin_top</item>
+
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/subtitle_text_size</item>
     </style>
