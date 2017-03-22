@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">About Ollivander\'s Wand Shop</string>
-    <string name="object_title">Ollivander\'s Wand Shop</string>
+    <string name="app_name">Ollivander\'s Wand Shop</string>
     <string name="object_subtitle">Souvenir Store</string>
     <string name="call_action">Call</string>
     <string name="save_action">Save</string>
@@ -10,4 +9,6 @@
     <string name="opening_hours">Opening hours: 8-22</string>
     <string name="phone_number">+1-407-363-8000</string>
     <string name="ownership">Claim this business</string>
+    <string name="suggest">Suggest an edit</string>
+    <string name="add_photo">Add a photo</string>
 </resources>

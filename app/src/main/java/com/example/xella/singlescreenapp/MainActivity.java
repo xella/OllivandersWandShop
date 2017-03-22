@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,10 +20,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         openHoursCheck();
 
-//        CollapsingToolbarLayout collapsingToolbarLayout =
-//                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-//        collapsingToolbarLayout.setTitle(getString(R.string.object_title));
-//        collapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.PlaceTitleTextView);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        collapsingToolbar.setExpandedTitleTextAppearance(R.style.ExpandedAppBar);
     }
 
     /**
@@ -43,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void markAsSaved(View view) {
         int duration = Toast.LENGTH_SHORT;
-        String messageText = getString(R.string.object_title) + " is saved in your list.";
+        String messageText = getString(R.string.app_name) + " is saved in your list.";
         Toast.makeText(this, messageText, duration).show();
     }
 

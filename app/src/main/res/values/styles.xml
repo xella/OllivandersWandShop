@@ -8,39 +8,34 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Style for main image on top of the page. -->
-    <style name="MainImageView">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/main_image_height</item>
-        <item name="android:scaleType">centerCrop</item>
-    </style>
-
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- Style for layout with title and subtitle of the place. -->
-    <style name="PlaceTitleLayout">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@color/colorPrimary</item>
-        <item name="android:orientation">vertical</item>
-        <item name="android:padding">@dimen/place_title_layout_padding</item>
+
+    <!-- New text size for title in expanded app bar -->
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/title_text_size</item>
     </style>
 
-    <!-- Style for title of the place. -->
-    <style name="PlaceTitleTextView">
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">@dimen/title_text_size</item>
+    <!-- Style for main image on top of the page. -->
+    <style name="MainImageView">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for layout with subtitle of the place. -->
+    <style name="PlaceSubTitleLayout">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/place_subtitle_layout_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/place_subtitle_layout_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/place_subtitle_layout_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/place_subtitle_layout_padding_vertical</item>
     </style>
 
     <!-- Style for subtitle of the place. -->
     <style name="PlaceSubtitleTextView">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/subtitle_text_size</item>
     </style>
@@ -64,8 +59,6 @@
     </style>
 
     <style name="InformationTextViewLayout">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
         <item name="android:padding">@dimen/information_text_view_layout_padding</item>
     </style>
@@ -84,8 +77,6 @@
 
     <!-- Style for layout with additional images. -->
     <style name="AdditionalImagesLayout">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">@dimen/additional_images_layout_margin</item>
         <item name="android:layout_marginRight">@dimen/additional_images_layout_margin</item>
         <item name="android:layout_marginBottom">@dimen/additional_images_layout_margin</item>
@@ -98,5 +89,9 @@
         <item name="android:layout_height">@dimen/additional_image_height</item>
         <item name="android:scaleType">centerCrop</item>
         <item name="android:layout_margin">@dimen/additional_image_margin</item>
+    </style>
+
+    <style name="FloatingActionButton">
+        <item name="android:layout_marginRight">@dimen/floating_action_button_margin</item>
     </style>
 </resources>
