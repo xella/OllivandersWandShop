@@ -3,7 +3,7 @@
 As a second assignment during "Android Development for Beginners" scholarship by Udacity and Google, 
 I needed to implement a single screen app that displays information about a fictional small business.
 
-I've decided to implement an app about Ollivander's Wand Shop.
+I've decided to implement an app for Ollivander's Wand Shop.
 
 My app is including all details that were required:
 * Business name
@@ -20,3 +20,13 @@ Moreover, I implemented interaction with user:
 * If you'll click on an Address it'll open a maps app with place's address.
 * If you'll click on a Phone number it will open a phone app and dial a phone number
 * Opening hours also showing is a place opened right now or not.
+
+Here are screenshots and short video how it looks like:
+
+[![Ollivander's Wand Shop overview video](https://youtu.be/qxomw1FQTFQ/0.jpg)](https://youtu.be/qxomw1FQTFQ)
+
+![Ollivander's Wand Shop Screenshot 1](https://github.com/xella/OllivandersWandShop/tree/master/readme_imgs/ollivanders1.png)
+
+![Ollivander's Wand Shop Screenshot 2](https://github.com/xella/OllivandersWandShop/tree/master/readme_imgs/ollivanders2.png)
+
+![Ollivander's Wand Shop Screenshot 3](https://github.com/xella/OllivandersWandShop/tree/master/readme_imgs/ollivanders3.png)
