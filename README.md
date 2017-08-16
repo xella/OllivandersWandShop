@@ -21,9 +21,11 @@ Moreover, I implemented interaction with user:
 * If you'll click on a Phone number it will open a phone app and dial a phone number
 * Opening hours also showing is a place opened right now or not.
 
-Here are screenshots and short video how it looks like:
+Here is a short video how it looks like:
 
-[![Ollivander's Wand Shop overview video](https://youtu.be/qxomw1FQTFQ/0.jpg)](https://youtu.be/qxomw1FQTFQ)
+[<img src="http://i3.ytimg.com/vi/qxomw1FQTFQ/maxresdefault.jpg" width="500">](https://youtu.be/qxomw1FQTFQ)
+
+And some screenshots:
 
 <img src="/readme_imgs/ollivanders1.png" width="300">
 
