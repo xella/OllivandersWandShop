@@ -25,8 +25,9 @@ Here are screenshots and short video how it looks like:
 
 [![Ollivander's Wand Shop overview video](https://youtu.be/qxomw1FQTFQ/0.jpg)](https://youtu.be/qxomw1FQTFQ)
 
-![Ollivander's Wand Shop Screenshot 1](https://github.com/xella/OllivandersWandShop/tree/master/readme_imgs/ollivanders1.png)
+<img src="/readme_imgs/ollivanders1.png" width="300">
 
-![Ollivander's Wand Shop Screenshot 2](https://github.com/xella/OllivandersWandShop/tree/master/readme_imgs/ollivanders2.png)
+<img src="/readme_imgs/ollivanders2.png" width="300">
 
-![Ollivander's Wand Shop Screenshot 3](https://github.com/xella/OllivandersWandShop/tree/master/readme_imgs/ollivanders3.png)
+<img src="/readme_imgs/ollivanders3.png" width="300">
+
