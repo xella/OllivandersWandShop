@@ -23,13 +23,13 @@ Moreover, I implemented interaction with user:
 
 Here is a short video how it looks like:
 
-[<img src="http://i3.ytimg.com/vi/qxomw1FQTFQ/maxresdefault.jpg" width="500">](https://youtu.be/qxomw1FQTFQ)
+[<img src="http://i3.ytimg.com/vi/qxomw1FQTFQ/maxresdefault.jpg" width="500"/>](https://youtu.be/qxomw1FQTFQ)
 
 And some screenshots:
 
-<img src="/readme_imgs/ollivanders1.png" width="300">
+<img src="/readme_imgs/ollivanders1.png" width="300"/>
 
-<img src="/readme_imgs/ollivanders2.png" width="300">
+<img src="/readme_imgs/ollivanders2.png" width="300"/>
 
-<img src="/readme_imgs/ollivanders3.png" width="300">
+<img src="/readme_imgs/ollivanders3.png" width="300"/>
 
